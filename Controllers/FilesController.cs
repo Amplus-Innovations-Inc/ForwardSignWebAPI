@@ -64,5 +64,45 @@ namespace ForwardSignWebAPI.Controllers
 			}
 			return this.StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
 		}
+
+		[HttpPost("uploadExtraFile/{token}/{folder}")]
+		public async Task<ActionResult<String>> UploadExtraFile(string token, string folder, [FromForm] ExtraUploadFileModel uploadFileModel)
+		{
+			_logger.LogInformation("Log message in the UploadExtraFile() method");
+			if (token == config.Value.APIToken)
+			{
+				try
+				{
+					_token = await GetAccessToken(config.Value);
+					int id = await ExistWorkOrderName(config.Value, _token, folder);
+					if (id == 0)
+					{
+						// create a folder first
+						id = await CreateFolder(config.Value, _token, folder);
+					}
+
+					if (id != 0)
+					{
+						if (await UploadAFile(config.Value, _token, id, uploadFileModel.File))
+						{
+							return Ok("SUCCESS");
+						}
+						else
+						{
+							return this.StatusCode(StatusCodes.Status500InternalServerError, "Upload file is failed");
+						}
+					}
+					else
+					{
+						return this.StatusCode(StatusCodes.Status500InternalServerError, "Cannot create/find a folder to contain the uploaded file");
+					}
+				}
+				catch (Exception e)
+				{
+					return this.StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+				}
+			}
+			return this.StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
+		}
 	}
 }
