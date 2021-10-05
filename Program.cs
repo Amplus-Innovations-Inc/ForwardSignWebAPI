@@ -17,14 +17,15 @@ namespace ForwardSignWebAPI
 			CreateHostBuilder(args).Build().Run();
 		}
 
-		public static IWebHostBuilder CreateHostBuilder(string[] args) =>
-			WebHost.CreateDefaultBuilder(args)
-			.ConfigureLogging(logBuilder =>
-			{
-				logBuilder.ClearProviders(); // removes all providers from LoggerFactory
-				logBuilder.AddConsole();
-				logBuilder.AddTraceSource("Information, ActivityTracing"); // Add Trace listener provider
-			})
-			.UseStartup<Startup>();
-			}
+		public static IHostBuilder CreateHostBuilder(string[] args) =>
+			Host.CreateDefaultBuilder(args)
+			   .ConfigureWebHostDefaults(webBuilder =>
+			   {
+				   webBuilder.UseStartup<Startup>();
+			   }).ConfigureLogging(builder =>
+			   {
+				   builder.SetMinimumLevel(LogLevel.Trace);
+				   builder.AddLog4Net("log4net.config");
+			   });
+	}
 }

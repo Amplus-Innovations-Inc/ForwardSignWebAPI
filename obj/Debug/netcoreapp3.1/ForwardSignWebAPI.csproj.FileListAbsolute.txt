@@ -26,3 +26,17 @@ C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Serilog.Sinks.File
 C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
 C:\Working\Projects\ForwardSignWebAPI\obj\Debug\netcoreapp3.1\ForwardSignWebAPI.csproj.CopyComplete
 C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Working\Projects\ForwardSignWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

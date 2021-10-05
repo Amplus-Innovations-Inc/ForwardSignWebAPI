@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 using static ForwardSignWebAPI.Models.SyncedToolHandler;
 
@@ -103,6 +104,39 @@ namespace ForwardSignWebAPI.Controllers
 				}
 			}
 			return this.StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
+		}
+
+		[HttpPost("uploadFileUsingFormData/{token}/{folder}")]
+		public async Task<ActionResult<String>> UploadFileUsingFormData(string token, string folder)
+		{
+			_logger.LogInformation("Log message in the  UploadFileUsingFormData() method");
+			try
+			{
+				var files = Request.Form.Files;
+
+				foreach (IFormFile file in files)
+				{
+					_logger.LogInformation($"File.length: {file.Length}");
+					if (file.Length == 0)
+						continue;
+
+					_logger.LogInformation($"File.Name: {file.FileName}");
+					string tempFilename = Path.Combine(Path.GetTempPath(), file.FileName);
+					_logger.LogInformation($"Saved file to: {tempFilename}");
+
+					using (var fileStream = new FileStream(tempFilename, FileMode.Create))
+					{
+						_logger.LogInformation($"Copying File....");
+						file.CopyTo(fileStream);
+					}
+				}
+				return new OkObjectResult("Yes");
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError("Error:" + ex.Message);
+				return new BadRequestObjectResult(ex.Message);
+			}
 		}
 	}
 }
