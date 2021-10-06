@@ -138,5 +138,23 @@ namespace ForwardSignWebAPI.Controllers
 				return new BadRequestObjectResult(ex.Message);
 			}
 		}
+
+		[HttpPost("sendFileID/{token}/{folder}/{id}")]
+		public async Task<ActionResult<String>> SendFileID(string token, string folder, string id)
+		{
+			_logger.LogInformation("Log message in the  UploadFileUsingFormData() method");
+			try
+			{
+				_logger.LogInformation("token:" + token);
+				_logger.LogInformation("folder:" + folder);
+				_logger.LogInformation("id:" + id);
+				return new OkObjectResult("Yes");
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError("Error:" + ex.Message);
+				return new BadRequestObjectResult(ex.Message);
+			}
+		}
 	}
 }
