@@ -106,13 +106,14 @@ namespace ForwardSignWebAPI.Controllers
 			return this.StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
 		}
 
-		[HttpPost("sendFileID/{token}/{folder}/{id}/{filename}")]
+		[HttpPost("send/{token}/{folder}/{id}/{filename}")]
 		public async Task<ActionResult<String>> SendFileID(string token, string folder, string id, string filename)
 		{
 			_logger.LogInformation("Log message in the  UploadFileUsingFormData() method");
 			_logger.LogInformation("token:" + token);
 			_logger.LogInformation("folder:" + folder);
 			_logger.LogInformation("id:" + id);
+			_logger.LogInformation("filename:" + filename);
 			if (token == config.Value.APIToken)
 			{
 				byte[] fileBytes = null;
