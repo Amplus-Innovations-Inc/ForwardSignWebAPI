@@ -1,0 +1,17 @@
+2021-10-05 15:59:24,420  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-05 15:59:24,505  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-05 15:59:24,507  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-05 16:00:01,608  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [32] - MESSAGE: Log message in the UploadFile() method
+ 2021-10-05 16:05:56,131  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-05 16:05:56,214  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-05 16:05:56,216  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-05 16:06:01,619  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [112] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-05 16:06:05,344  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [120] - MESSAGE: File.length: 6152
+ 2021-10-05 16:07:30,722  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [0] - MESSAGE: File.Name: imageedit_1_4698255636.png
+ 2021-10-05 16:07:31,552  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [0] - MESSAGE: Saved file to: C:\Users\anh_t\AppData\Local\Temp\imageedit_1_4698255636.png
+ 2021-10-05 16:07:41,292  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [0] - MESSAGE: Copy File: 6152
+ 2021-10-05 16:28:26,564  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-05 16:28:26,713  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-05 16:28:26,717  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-05 17:29:08,463  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [32] - MESSAGE: Log message in the UploadFile() method
+ 

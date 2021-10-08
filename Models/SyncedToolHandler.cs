@@ -176,5 +176,38 @@ namespace ForwardSignWebAPI.Models
 
 			return ret;
 		}
+
+		public static async Task<Boolean> UploadAFile(MyConfig config, string token, int id, byte[] fileBytes, string file, string fileName)
+		{
+			bool ret = false;
+			try
+			{
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload",
+									config.RootSalesforceFilesID, id);
+
+				using (var client = new HttpClient())
+				{
+					client.DefaultRequestHeaders.Add("Authorization", token);
+					var multipartContent = new MultipartFormDataContent();
+					multipartContent.Add(new ByteArrayContent(fileBytes), file, fileName);
+					var response = await client.PostAsync(url, multipartContent);
+					if (response.StatusCode == HttpStatusCode.OK)
+					{
+						ret = true;
+					}
+					else
+					{
+						throw new Exception("Failed to create a sub-folder");
+					}
+				}
+
+			}
+			catch (Exception e)
+			{
+				throw new Exception(e.Message);
+			}
+
+			return ret;
+		}
 	}
 }

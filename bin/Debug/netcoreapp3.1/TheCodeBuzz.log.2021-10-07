@@ -1,0 +1,73 @@
+2021-10-07 20:34:54,385  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 20:34:54,520  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 20:34:54,523  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 20:35:44,364  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [112] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 20:35:44,385  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 20:35:44,389  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: folder:1234
+ 2021-10-07 20:35:44,392  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:03:01,797  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:03:01,925  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:03:01,928  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:03:11,446  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [112] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:03:11,453  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:03:11,456  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: folder:1234
+ 2021-10-07 21:03:11,464  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:23:35,361  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:23:35,464  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:23:35,467  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:24:02,621  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:24:02,628  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:24:02,630  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:24:02,633  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:25:18,162  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:25:18,236  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:25:18,238  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:25:24,800  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:25:24,809  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:25:24,811  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:25:24,814  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:26:47,368  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:26:47,475  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:26:47,477  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:26:50,260  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:26:50,270  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:26:50,272  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:26:50,275  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:31:30,878  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:31:30,881  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:31:30,883  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:31:30,886  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:31:47,462  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:31:47,465  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:31:47,469  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:31:47,471  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:36:25,250  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:36:25,323  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:36:25,329  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:36:26,540  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:36:26,550  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:36:26,553  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:36:26,555  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:37:17,043  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:37:17,127  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:37:17,129  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:37:24,227  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:37:24,235  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:37:24,237  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:37:24,239  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:39:03,754  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:39:03,825  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:39:03,830  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:48:41,264  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-10-07 21:48:41,348  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-10-07 21:48:41,350  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Working\Projects\ForwardSignWebAPI
+ 2021-10-07 21:48:43,917  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:48:43,926  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:48:43,928  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:48:43,931  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 2021-10-07 21:50:57,724  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [72] - MESSAGE: Log message in the UploadExtraFile() method
+ 2021-10-07 21:52:19,932  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [113] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-10-07 21:52:19,936  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [114] - MESSAGE: token:421a48b5f24dbbcff541b5073b343ffea262e66d
+ 2021-10-07 21:52:19,939  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [115] - MESSAGE: folder:1234
+ 2021-10-07 21:52:19,941  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [116] - MESSAGE: id:0685G00000YEo18QAD
+ 

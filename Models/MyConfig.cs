@@ -14,5 +14,7 @@ namespace ForwardSignWebAPI.Models
 		public string APIToken { get; set; }
 		public int RootSalesforceFilesID { get; set; }
 		public int WorkOrderID { get; set; }
+		public string SalesforceTokenURL { get; set; }
+		public string SalesforceFileReq { get; set; }
 	}
 }
