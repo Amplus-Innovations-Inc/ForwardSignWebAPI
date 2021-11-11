@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a1f6b48b-7bfa-48b9-96c0-a052e6e4334f": {
+      "ProjectGuid": "a1f6b48b-7bfa-48b9-96c0-a052e6e4334f",
+      "DisplayName": "ForwardSignWebAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

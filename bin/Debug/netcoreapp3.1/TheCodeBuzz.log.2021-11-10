@@ -1,0 +1,250 @@
+2021-11-10 12:48:56,259  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 12:48:56,846  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 12:48:56,851  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 12:49:08,313  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 12:49:08,506  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 12:49:08,533  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 12:49:08,539  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 12:49:08,547  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 12:51:53,380  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 12:51:53,589  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 12:51:53,621  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 12:51:58,696  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 12:51:58,726  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 12:51:58,731  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 12:51:58,736  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 12:51:58,740  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 12:56:54,453  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 12:56:54,731  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 12:56:54,748  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 12:57:01,025  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 12:57:01,053  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 12:57:01,086  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 12:57:01,099  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 12:57:01,108  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:04:58,959  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:04:59,089  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:04:59,092  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:05:06,190  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:05:06,259  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:05:06,264  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:05:06,278  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:05:06,281  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:09:53,675  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:09:53,866  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:09:53,872  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:10:04,670  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:10:04,700  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:10:04,704  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:10:04,708  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:10:04,711  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:11:50,640  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:11:50,874  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:11:50,879  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:11:57,274  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:11:57,299  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:11:57,306  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:11:57,310  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:11:57,314  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:16:33,012  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:16:33,236  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:16:33,270  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:16:39,512  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:16:39,552  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:16:39,556  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:16:39,572  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:16:39,586  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:17:27,934  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:17:27,942  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:17:27,946  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:17:27,957  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:17:27,961  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:21:08,429  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:21:08,529  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:21:08,534  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:21:49,022  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:21:49,039  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:21:49,044  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:21:49,053  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:21:49,057  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:22:57,364  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:22:57,369  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:22:57,372  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:22:57,375  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:22:57,378  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:23:35,972  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:23:35,978  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:23:35,990  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:23:35,996  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:23:36,007  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:29:15,778  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:29:15,893  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:29:15,896  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:29:21,516  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:29:21,532  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:29:21,537  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:29:21,540  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:29:21,543  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:30:43,832  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:30:44,027  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:30:44,031  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:30:52,516  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:30:52,533  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:30:52,536  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:30:52,539  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:30:52,542  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:50:22,071  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:50:22,196  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:50:22,200  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:50:25,725  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:50:25,740  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:50:25,743  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:50:25,747  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:50:25,749  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:52:36,594  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:52:36,748  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:52:36,765  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:52:41,519  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:52:41,536  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:52:41,540  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:52:41,543  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:52:41,547  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:54:33,991  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:54:34,152  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:54:34,155  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:54:36,155  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:54:36,172  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:54:36,187  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:54:36,190  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:54:36,195  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 13:57:30,971  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 13:57:31,131  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 13:57:31,138  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 13:57:33,752  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 13:57:33,772  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 13:57:33,775  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 13:57:33,779  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 13:57:33,784  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 14:00:59,228  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 14:00:59,442  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 14:00:59,447  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 14:01:05,037  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 14:01:05,055  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 14:01:05,059  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 14:01:05,065  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 14:01:05,077  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 14:03:46,135  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 14:03:46,309  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 14:03:46,320  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 14:03:51,841  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 14:03:51,878  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 14:03:51,880  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 14:03:51,886  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 14:03:51,890  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 14:05:08,731  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 14:05:08,928  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 14:05:08,933  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 14:05:17,150  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 14:05:17,183  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 14:05:17,211  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 14:05:17,215  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 14:05:17,219  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 14:09:04,009  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 14:09:04,168  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 14:09:04,175  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 14:09:08,712  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 14:09:08,735  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 14:09:08,754  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 14:09:08,762  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 14:09:08,772  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 14:09:53,809  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 14:09:53,819  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 14:09:53,826  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 14:09:53,834  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 14:09:53,838  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 18:26:15,933  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 18:26:17,258  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 18:26:17,262  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 18:27:06,932  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 18:27:06,954  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 18:27:06,958  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 18:27:06,961  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 18:27:06,964  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 18:29:09,526  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 18:29:09,672  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 18:29:09,678  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 18:29:09,904  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 18:29:09,986  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 18:29:09,990  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 18:29:09,998  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 18:29:10,004  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 18:33:06,333  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 18:33:06,458  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 18:33:06,461  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 18:34:55,791  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 18:34:55,818  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 18:34:55,822  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 18:34:55,825  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 18:34:55,827  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 18:46:51,013  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 18:46:51,128  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 18:46:51,131  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 18:46:58,666  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 18:46:58,694  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 18:46:58,697  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 18:46:58,705  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 18:46:58,711  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 18:48:15,468  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 18:48:15,617  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 18:48:15,626  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 18:48:20,435  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 18:48:20,462  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 18:48:20,466  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 18:48:20,469  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 18:48:20,472  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 20:44:17,311  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 20:44:17,465  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 20:44:17,468  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 20:44:29,377  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 20:44:29,399  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 20:44:29,415  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 20:44:29,419  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 20:44:29,422  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 20:45:53,569  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 20:45:53,574  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 20:45:53,577  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 20:45:53,580  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 20:45:53,583  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 20:52:18,101  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 20:52:18,256  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 20:52:18,262  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 20:52:40,673  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 20:52:40,712  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 20:52:40,715  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [35] - MESSAGE: folder:21J6011
+ 2021-11-10 20:52:40,719  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 20:52:40,724  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 21:15:52,476  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 21:15:52,625  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 21:15:52,628  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 21:19:58,047  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 21:19:58,179  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 21:19:58,182  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 21:20:03,957  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 21:20:03,976  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 21:20:03,992  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 21:20:03,996  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 21:28:19,450  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 21:28:19,580  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 21:28:19,584  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 21:28:44,172  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 21:28:44,199  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 21:28:44,203  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 21:28:44,205  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 2021-11-10 21:39:41,067  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-10 21:39:42,082  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-10 21:39:42,091  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-10 21:40:08,554  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [33] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-10 21:40:08,706  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [34] - MESSAGE: token:2509
+ 2021-11-10 21:40:08,713  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [36] - MESSAGE: id:0685G00000ZLMdEQAX
+ 2021-11-10 21:40:08,721  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [37] - MESSAGE: filename:AAA.xlsx
+ 

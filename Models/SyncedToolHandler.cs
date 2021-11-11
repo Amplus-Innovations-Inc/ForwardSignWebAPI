@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -47,13 +44,12 @@ namespace ForwardSignWebAPI.Models
 			return token_type + " " + token;
 		}
 
-		public static async Task<Int32> ExistWorkOrderName(MyConfig config, string token, string workOrderName)
+		public static async Task<Int32> ExistWorkOrderName(int parentID, MyConfig config, string token, string workOrderName)
 		{
 			int ret = 0;
 			try
 			{
-				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/children?include_deleted=false",
-									config.RootSalesforceFilesID, config.WorkOrderID);
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/children?include_deleted=false", config.RootSalesforceFilesID, parentID);
 
 				using (var client = new HttpClient())
 				{
@@ -92,18 +88,15 @@ namespace ForwardSignWebAPI.Models
 			{
 				throw new Exception(e.Message);
 			}
-
 			return ret;
 		}
 
-		public static async Task<Int32> CreateFolder(MyConfig config, string token, string workOrderName)
+		public static async Task<Int32> CreateFolder(int parentID, MyConfig config, string token, string workOrderName)
 		{
 			int ret = 0;
 			try
 			{
-				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/create_folder",
-									config.RootSalesforceFilesID, config.WorkOrderID);
-
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/create_folder", config.RootSalesforceFilesID, parentID);
 				using (var client = new HttpClient())
 				{
 					client.DefaultRequestHeaders.Add("Authorization", token);
@@ -124,56 +117,11 @@ namespace ForwardSignWebAPI.Models
 						throw new Exception("Failed to create a sub-folder");
 					}
 				}
-
 			}
 			catch (Exception e)
 			{
 				throw new Exception(e.Message);
 			}
-
-			return ret;
-		}
-
-		public static async Task<Boolean> UploadAFile(MyConfig config, string token, int id, IFormFile file)
-		{
-			bool ret = false;
-			try
-			{
-				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload",
-									config.RootSalesforceFilesID, id);
-
-				using (var client = new HttpClient())
-				{
-					client.DefaultRequestHeaders.Add("Authorization", token);
-					var multipartContent = new MultipartFormDataContent();
-					byte[] fileBytes = { };
-					if (file.Length > 0)
-					{
-						using (var ms = new MemoryStream())
-						{
-							file.CopyTo(ms);
-							fileBytes = ms.ToArray();
-						}
-					}
-
-					multipartContent.Add(new ByteArrayContent(fileBytes), file.Name, file.FileName);
-					var response = await client.PostAsync(url, multipartContent);
-					if (response.StatusCode == HttpStatusCode.OK)
-					{
-						ret = true;
-					}
-					else
-					{
-						throw new Exception("Failed to create a sub-folder");
-					}
-				}
-
-			}
-			catch (Exception e)
-			{
-				throw new Exception(e.Message);
-			}
-
 			return ret;
 		}
 
@@ -182,10 +130,9 @@ namespace ForwardSignWebAPI.Models
 			bool ret = false;
 			try
 			{
-				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload",
-									config.RootSalesforceFilesID, id);
+                var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload", config.RootSalesforceFilesID, id);
 
-				using (var client = new HttpClient())
+                using (var client = new HttpClient())
 				{
 					client.DefaultRequestHeaders.Add("Authorization", token);
 					var multipartContent = new MultipartFormDataContent();
@@ -200,13 +147,11 @@ namespace ForwardSignWebAPI.Models
 						throw new Exception("Failed to create a sub-folder");
 					}
 				}
-
 			}
 			catch (Exception e)
 			{
 				throw new Exception(e.Message);
 			}
-
 			return ret;
 		}
 	}
