@@ -35,9 +35,9 @@ namespace ForwardSignWebAPI.Models
 					}
 
 				}
-					
+
 			}
-			catch(Exception e)
+			catch (Exception e)
 			{
 				throw new Exception(e.Message);
 			}
@@ -59,7 +59,7 @@ namespace ForwardSignWebAPI.Models
 					{
 						string result = response.Content.ReadAsStringAsync().Result;
 						var objects = JObject.Parse(result);
-						if(objects != null)
+						if (objects != null)
 						{
 							foreach (JObject item in objects["results"]) // <-- Note that here we used JObject instead of usual JProperty
 							{
@@ -69,20 +69,18 @@ namespace ForwardSignWebAPI.Models
 									ret = int.Parse(item["id"].ToString());
 									break;
 								}
-
 							}
 						}
 						else
 						{
 							throw new Exception("Wrong data format, please contact with administrator");
 						}
-					} 
+					}
 					else
 					{
 						throw new Exception("Cannot read a list of sub-folder");
 					}
 				}
-
 			}
 			catch (Exception e)
 			{
@@ -124,15 +122,13 @@ namespace ForwardSignWebAPI.Models
 			}
 			return ret;
 		}
-
 		public static async Task<Boolean> UploadAFile(MyConfig config, string token, int id, byte[] fileBytes, string file, string fileName)
 		{
 			bool ret = false;
 			try
 			{
-                var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload", config.RootSalesforceFilesID, id);
-
-                using (var client = new HttpClient())
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/upload", config.RootSalesforceFilesID, id);
+				using (var client = new HttpClient())
 				{
 					client.DefaultRequestHeaders.Add("Authorization", token);
 					var multipartContent = new MultipartFormDataContent();
@@ -145,6 +141,90 @@ namespace ForwardSignWebAPI.Models
 					else
 					{
 						throw new Exception("Failed to create a sub-folder");
+					}
+				}
+			}
+			catch (Exception e)
+			{
+				throw new Exception(e.Message);
+			}
+			return ret;
+		}
+
+		public static async Task<Int32> CheckFile(int parentID, MyConfig config, string token, string workOrderName)
+		{
+			int ret = 0;
+			try
+			{
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/folder/{1}/children", config.RootSalesforceFilesID, parentID);
+				using (var client = new HttpClient())
+				{
+					client.DefaultRequestHeaders.Add("Authorization", token);
+					var response = await client.GetAsync(url);
+					if (response.StatusCode == HttpStatusCode.OK)
+					{
+						string result = response.Content.ReadAsStringAsync().Result;
+						var objects = JObject.Parse(result);
+						if (objects != null)
+						{
+							foreach (JObject item in objects["results"]) // <-- Note that here we used JObject instead of usual JProperty
+							{
+								string name = item["name"].ToString();
+								if (name.Equals(workOrderName, StringComparison.CurrentCultureIgnoreCase))
+								{
+									ret = int.Parse(item["id"].ToString());
+									break;
+								}
+							}
+						}
+						else
+						{
+							throw new Exception("The file does not exist");
+						}
+					}
+					else
+					{
+						throw new Exception("Cannot read a list of sub-folder and filename");
+					}
+				}
+			}
+			catch (Exception e)
+			{
+				throw new Exception(e.Message);
+			}
+			return ret;
+		}
+		public static async Task<Boolean> DeleteFile(MyConfig config, string token, int fileID)
+		{
+			//POST /api/2/files/<root_id>/<file_id>/delete
+			bool ret = false;
+			try
+			{
+				var url = String.Format(config.SyncedToolURL + "api/2/files/{0}/{1}/delete", config.RootSalesforceFilesID, fileID);
+				using (var client = new HttpClient())
+				{
+					client.DefaultRequestHeaders.Add("Authorization", token);
+					var formContent = new FormUrlEncodedContent(new[]
+					{
+						new KeyValuePair<string, string>("name", "filename")
+					});
+					var response = await client.PostAsync(url, formContent);
+					if (response.StatusCode == HttpStatusCode.OK)
+					{
+						string result = response.Content.ReadAsStringAsync().Result;
+						var objects = JObject.Parse(result);
+						if (response.StatusCode == HttpStatusCode.OK)
+						{
+							ret = true;
+						}
+						else
+						{
+							throw new Exception("Failed to delete the file");
+						}
+					}
+					else
+					{
+						throw new Exception("Cannot read a list of sub-folder and filename");
 					}
 				}
 			}

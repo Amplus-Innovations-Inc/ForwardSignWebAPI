@@ -1,0 +1,108 @@
+2021-11-11 13:41:54,954  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-11 13:41:56,344  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-11 13:41:56,353  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-11 13:44:05,591  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:45:02,176  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:45:58,048  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:46:34,032  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 18:06:08,938  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 18:06:09,109  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 18:06:09,112  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 18:07:03,233  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 18:07:49,462  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 18:13:12,829  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 18:13:13,006  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 18:13:13,011  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 18:13:19,357  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 18:21:12,541  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 18:21:12,733  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 18:21:12,746  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 18:21:16,017  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 19:03:28,417  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 19:03:28,883  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 19:03:28,887  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 19:03:35,607  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 19:05:27,740  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 19:07:43,766  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 19:07:43,921  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 19:07:43,925  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 19:07:46,092  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 19:10:49,063  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-14 20:49:20,508  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 20:49:20,658  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 20:49:20,662  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 20:53:15,259  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 20:53:15,412  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 20:53:15,417  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:00:33,871 FATAL Microsoft.AspNetCore.Hosting.Diagnostics.ApplicationError [0] - MESSAGE: Application startup exception
+ System.ArgumentException: The literal section 'search?q=' is invalid. Literal sections cannot contain the '?' character. (Parameter 'routeTemplate')
+ ---> Microsoft.AspNetCore.Routing.Patterns.RoutePatternException: The literal section 'search?q=' is invalid. Literal sections cannot contain the '?' character.
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternParser.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternFactory.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.ParameterExistsInAnyRoute(ActionModel action, String parameterName)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferBindingSourceForParameter(ParameterModel parameter)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferParameterBindingSources(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.Apply(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at ForwardSignWebAPI.Startup.<>c.<Configure>b__5_0(IEndpointRouteBuilder endpoints) in C:\Users\admin\Desktop\ForwardSignWebAPI\Startup.cs:line 59
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at ForwardSignWebAPI.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\admin\Desktop\ForwardSignWebAPI\Startup.cs:line 57
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-11-14 21:07:00,114  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:07:00,231  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:07:00,237  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:08:56,149  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:08:56,276  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:08:56,279  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:14:00,272  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:14:00,407  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:14:00,416  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:15:23,020  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:15:23,243  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:15:23,249  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:17:52,714  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:17:52,861  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:17:52,864  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-14 21:21:39,965  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-14 21:21:40,097  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-14 21:21:40,100  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 

@@ -1,0 +1,8 @@
+2021-11-11 13:41:54,954  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-11-11 13:41:56,344  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2021-11-11 13:41:56,353  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\admin\Desktop\ForwardSignWebAPI
+ 2021-11-11 13:44:05,591  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:45:02,176  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:45:58,048  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 2021-11-11 13:46:34,032  INFO ForwardSignWebAPI.Controllers.FilesController.MoveNext [30] - MESSAGE: Log message in the  UploadFileUsingFormData() method
+ 
